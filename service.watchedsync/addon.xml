@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="service.watchedsync" name="Watched Status Sync" version="0.3.16" provider-name="watchedsyncforkodi">
+<addon id="service.watchedsync" name="Watched Status Sync" version="0.3.17" provider-name="watchedsyncforkodi">
     <requires>
         <!-- Minimum is Kodi 19 -->
         <import addon="xbmc.python" version="3.0.0"/>
@@ -19,7 +19,13 @@
         <website></website>
         <email></email>
         <source></source>
-        <news>Changelog: Attempt fix for add-on not starting on Xbox devices. Removed use of fasteners library.
+        <news>Changelog:
+- Improve device registration process to make more robust, particularly for Android devices
+- Allow updates while playback is paused
+- Refined thread wakeup logic
+- Wakeup when playback has stopped
+- Update modules to latest version (February 2025)
+- Reduce module library size
         </news>
         <!-- #TODO Populate assets below -->
         <assets>
